@@ -1,0 +1,18 @@
+.view {
+  .js-page-banner {
+    background-image: url("https://d24pyncn3hxs0c.cloudfront.net/sites/all/themes/facd7/images/new_images/banner-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #ad0035;
+    display: table-cell;
+    float: left;
+    vertical-align: middle;
+    width: 100%;
+
+    h1 {
+    display: table-cell;
+    padding: 25px 0 28px 15px;
+    vertical-align: middle;
+    }
+  }
+}

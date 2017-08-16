@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import 'lib/variables';
+@import 'lib/mixin';
+@import 'lib/reset';
+
+/* Header footer */
+@import 'components/header-footer';
+
+/* Main Menu */
+@import 'components/main-menu';
+
+/* Tabbing */
+@import 'components/block-block';
+
+/* product listing  */
+@import 'components/product-list';
+
+/* Blog  */
+@import 'components/blog';
+
+/* Bread Crumb  */
+@import 'components/breadcrumb';
+
+/* Pager  */
+@import 'components/pager';
+
+/* Inner header  */
+@import 'components/inner-header';
+
+/* Product List Outer  */
+@import 'components/product-outer';
+
+/* Product List Outer  */
+@import 'components/modal';
+
+
+#main-wrapper {
+    margin: 0 auto;
+    width: 100%;
+
+    .mid-wrapper {
+        background: #ffe2e2 url("https://d24pyncn3hxs0c.cloudfront.net/sites/all/themes/facd7/images/new_images/vdaybgnew.jpg") repeat scroll 0 0;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        text-align: center;
+        width: 100%;
+
+        .wrapper{
+                    background-color: #fff;
+                    display: inline-block;
+                    margin: 0 auto;
+                    padding: 5px 10px 10px;
+                    text-align: left;
+                    width: 1000px;
+                }
+    }
+
+}
+
+

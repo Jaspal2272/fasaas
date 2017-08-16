@@ -1,0 +1,64 @@
+.block-block {
+
+  .tabs-sections {
+    @include box (98%, auto, inline-block);
+    list-style: none;
+    border-bottom: 1px solid $border-grey-d5;
+    margin-left:15px;
+
+    li {
+      display: inline-block;
+      width: 15%;
+      font-size: 14px;
+      margin-left: 0;
+      margin-right: -5px;
+      background-color: $bg-grey-ea;
+      color: $txt-grey-666;
+      border: 1px solid $border-grey-d5;
+      border-bottom: none;
+      line-height: 35px;
+      text-align: center;
+      text-decoration: none;
+
+      &:hover {
+        background-color: $bg-grey-cc;
+      }
+    }
+
+    a.active {
+        background-color: white;
+        margin-right: -4px;
+        padding-bottom: 9px;
+      li {
+        display: inline-block;
+        width: 15%;
+        font-size: 14px;
+        margin-left: 0px;
+        margin-right: -5px;
+        background-color: $bg-white;
+        color: $txt-grey-73;
+        border: 1px solid $border-grey-d5;
+        border-bottom: none;
+        text-align: center;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .tab_product {
+    padding: 20px 0 0 0;
+    display: inline-block;
+    position: relative;
+
+    
+    .slide-view-all {
+        font-size: 14px;
+        position: absolute;
+        right: 25px;
+        text-transform: capitalize;
+        top: -30px;
+    }
+
+  }
+}
+

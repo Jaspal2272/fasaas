@@ -1,0 +1,103 @@
+* {
+  box-sizing: content-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  color: $txt-grey-333;
+  background-color: $mian-bg;
+  display: block;
+  font-family: $font-family;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+// remove space ny margin and padding
+
+h1 {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+h2 {
+    color: $txt-grey-57;
+    font-size: 15.85px;
+    font-weight: normal;
+  @extend %remove-space;
+}
+
+h3 {
+  @extend %remove-space;
+}
+
+h4 {
+  @extend %remove-space;
+}
+
+h6 {
+  @extend %remove-space;
+}
+
+p {
+  @extend %remove-space;
+  padding-bottom: 10px;
+  line-height: 1.5em;
+}
+
+
+/*img {
+  @include box(100%, auto, block);
+}*/
+
+a {
+  color: $txt-blue;
+  text-decoration: none;
+}
+
+
+li {
+  @extend %remove-space;
+  list-style: none;
+}
+
+ul, ol {
+  @extend %remove-space;
+  list-style: none;
+}
+
+article {
+
+  p{
+    line-height: 1.6;
+    font-size: 16px;
+  }
+
+  h2 {
+    padding-top: 30px;
+    font-weight: 700;
+  }
+
+  ul {
+    padding-left: 25px;
+    padding-bottom: 10px;
+
+    li {
+      list-style-type: decimal;
+      padding-bottom: 10px;
+    }
+  }
+
+  
+}

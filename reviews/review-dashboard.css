@@ -1,0 +1,202 @@
+/****************mahendra CSS for Rating***************/
+
+.ratestar { 
+  border: none;
+  float: left;
+}
+.ratestar > input { display: none; } 
+.ratestar > label:before {
+    margin: 2px;
+    font-size: 1em;
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f005";
+}
+.ratestar > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** CSS for  Highlight Stars on Hover *****/
+.ratestar > input:checked ~ label,
+.ratestar:not(:checked) > label:hover,
+.ratestar:not(:checked) > label:hover ~ label { color: #ffb204;  } 
+.ratestar > input:checked + label:hover, 
+.ratestar > input:checked ~ label:hover,
+.ratestar > label:hover ~ input:checked ~ label,
+.ratestar > input:checked ~ label:hover ~ label { color: #ffb204; }
+/************* form Css***********/
+.vertical-line + .form-group {
+    margin: 20px 0;
+}
+#add-reviews {color:#464646;}
+#add-reviews label.control-label,.colh-lg-8 .form-item-display-name-of-reviewer label,.form-item-reviews label,.colh-lg-8 .form-item-headlines label  {
+    font-weight: 300;
+    display: inline-block;
+    width: 210px;
+    margin-right: 0px;
+    font-size: 14px;
+    color: #464646;
+	 float: left;
+}
+#add-reviews .control-label:after,.colh-lg-8 .form-item-display-name-of-reviewer label:after,.form-item-reviews label:after,.colh-lg-8 .form-item-headlines label:after {
+    content: ":";
+    float: right;
+    padding-right: 20px;
+	margin:0;
+}
+.colh-lg-8.margin-top-10 .form-item {
+    display: inline-block;
+    margin: 15px 15px 15px 0;
+    font-size: 13px;
+    color: #464646;
+}
+.colh-lg-8.margin-top-10 .form-item input {margin: 0;
+    padding: 0;
+    width: auto;}
+.my-review-product {
+    display: inline-block;
+    float: left;
+    margin: 0 14px 25px 0 !important;
+    text-align: center;
+    vertical-align: top;
+    width: 45% !important;
+}
+
+.my-review-product:last-child {
+    margin-bottom: 0;
+}
+.my-review-product:nth-child(even) {
+    border-left: 1px solid #e9e9e9;
+    padding-left: 15px;
+    margin-right: 0 !important;
+}
+.product-iamges {
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 90%;
+}
+.colh-lg-8 input{
+    width: 100%;
+    padding: 10px 0 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+	    box-sizing: border-box;
+}
+.control-label sup {color:#f00;}
+.submit {text-align:center; width:100%; float:left;}
+.submit #edit-submit {
+    background: #be324c;
+    border: 0 none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+	margin:2% 2% 2% -8.5%;
+    padding: 8px 20px;
+}
+.view {
+    float: left;
+    width: 100%;
+    margin-top: 44px;
+}
+.col-lg-4 {
+    width: 41%;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+}
+.view ul {
+    padding: 0;
+    margin: 0 -8px;
+}
+.view ul li {
+    list-style-type: none;
+    float: left;
+    margin-bottom: 16px;
+}
+li .views-field-nothing {
+    color: #737373;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.border-left {
+  border-left: 1px solid #ddd;
+}
+
+.white-box h4 {
+  font-size: 14px;
+  margin: 0;
+  color: #666;
+}
+
+.white-box h5 {
+  font-size: 14px;
+  font-weight: normal;
+  margin: 10px 0 0px;
+  color: #666;
+}
+
+.white-box h6 {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 10px 0 5px 0;
+    color: #666;
+}
+.form_rate,.form_recomd,.form_prate,.form_headline,.form_grev,.form_nrevw {
+    width: 100%;
+    float: left;
+    margin: 10px 0;
+}
+.col-lg-8 {    width: 58%;
+    float: left;}
+.add_review .colh-lg-8 {
+    width: 63%;
+    float: left;
+}
+.add_review .form_prate .colh-lg-8,.colh-lg-8 textarea {width:100%; resize:none;}
+.add_review .ratestar {
+    float: left;
+}
+.add_review .colh-lg-8 .form-item {margin:0;}
+.grippie {display:none;}
+.colh-lg-8 .c9 {
+    margin: 0;
+    font-size: 11px;
+    color: #999;
+    float: right;
+}
+.error-class {
+    font-size: 12px;
+    margin: 0;
+    margin-left: 36%;
+    margin-top: -7px;
+    width: 64%;
+    float: left;
+    color: #f00;
+}
+p.rate-product-error.error-class {
+    margin-top: -20px;
+}
+.colh-lg-8 .error {
+    color: #f00 !important;
+    font-size: 12px !important;
+}
+.colh-lg-8 .error:after {content:none !important;}
+.my-review-product .ratestar {
+    margin-left: 25px;
+}
+.form_recomd .form-item {
+    margin: 0 5px !important;
+}
+.my-review-products {
+    width: 60%;
+    float: left;
+}
+p.headline-error.error-class,p.reviews-error.error-class,p.recommend-error.error-class {
+    margin-top: -20px;
+}

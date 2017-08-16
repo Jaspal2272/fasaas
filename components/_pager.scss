@@ -1,0 +1,80 @@
+#view-bottom-pager,
+#view-top-pager {
+  .pagerright {
+
+    .item-list {
+      width: 100%;
+      float: left;
+      clear: both;
+      text-align: center;
+      margin: 9px 0;
+
+      .pager {
+        text-align: center;
+        display: inline-block;
+        margin: 0 auto;
+        padding: 0;
+
+        li {
+          @include border-radius (3px);
+          @include box (30px, 30px, block);
+          background-color: $bg-grey-f2;
+          float: left;
+          margin: 0 5px;
+          padding: 0;
+          font-size: 14px;
+
+          &:hover {
+            background-color: $bg-grey-ea;
+          }
+
+          &:first-child {
+            @include box (30px, 30px, block);
+            line-height: 30px;
+          }
+
+          &:last-child {
+            @include box (auto, 30px, block);
+          }
+          
+          a {
+            color: $txt-grey-73;
+            text-decoration: none;
+            display: block;
+            cursor: pointer;
+            padding: 5px 10px;
+
+            &:hover {
+              text-decoration: none;
+              color: $txt-grey-333;
+            }
+
+          }/* end of LI A */
+        }/* end of LI */
+
+        .pager-current {
+          background-color: $bg-grey-ea;
+        }
+
+        .pager-next a, 
+        .pager-previous a {
+            width: auto;
+            text-transform: capitalize;
+            font-weight: bold;
+        }
+      }/* end of pager */
+    }/* end of item-list */
+  }/* end of pagerright */
+}/* end of view-bottom-pager */
+
+
+
+div#views_infinite_scroll-ajax-loader {
+    clear: both;
+    text-align: center;
+    color: $txt-grey-73;
+
+    span {
+      font-weight: normal !important;
+    }
+}

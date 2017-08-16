@@ -1,0 +1,107 @@
+@import 'lib/variables';
+@import 'lib/mixin';
+@import 'lib/reset';
+@import 'utilities/font';
+@import 'components/main-slider-with-menu';
+
+.region.region-featured {
+    padding-top: 5px;
+}
+
+
+#strip_banner {
+    text-align: center;
+    a {
+        img { width:100%;}
+
+    }
+}
+
+
+.view-testimonials {
+    .view-content {
+    
+    .views-slideshow-controls-top {}
+    .testimonial-full-content {
+
+    .left-quotes {
+    background: rgba(0, 0, 0, 0) url("https://d24pyncn3hxs0c.cloudfront.net/sites/all/themes/facd7/images/new_images/testi-icon-left.png") no-repeat scroll left center;
+    float: left;
+    height: 14px;
+    padding-right: 10px;
+    width: 18px;
+    }
+    .right-quotes {
+    background: rgba(0, 0, 0, 0) url("https://d24pyncn3hxs0c.cloudfront.net/sites/all/themes/facd7/images/new_images/testi-icon-right.png") no-repeat scroll right center;
+    float: right;
+    height: 14px;
+    width: 18px;
+}
+
+        .testimonial-content { @extend .fs-14;
+            color: #737373;
+            float: left;
+            font-style: italic;
+            margin: 5px 0 0;
+            width: 879px;
+        }
+        .testimonials-name {
+            clear: both;
+            color: #ad0035;
+            float: left;
+            font-size: 14px;
+            font-style: italic;
+            margin: 10px 0 0 30px;
+        }
+    }
+        .views-slideshow-controls-top {
+            position: relative;
+
+            .views_slideshow_controls_text {
+                position: absolute;
+                width: 1000px;
+            }
+
+            .views-slideshow-controls-text-previous {
+                background-position: 0 0;
+                float: left;
+                left: -10px;
+                position: absolute;
+                top: 0px;
+            }
+
+            .views-slideshow-controls-text-next, .views-slideshow-controls-text-previous {
+                background-color: #ccc;
+                background-image: url("https://d24pyncn3hxs0c.cloudfront.net/sites/all/themes/facd7/images/new_images/arrows.png");
+                display: block;
+                height: 63px;
+                width: 32px;
+                font-size: 0;
+            }
+
+            .views-slideshow-controls-text-next {
+                background-position: 115px 0;
+                float: right;
+                position: absolute;
+                right: -10px;
+                top: 0px;
+            }
+
+            .views-slideshow-controls-text-pause {
+                display: none;
+            }
+
+        }
+
+        .views-slideshow-cycle-main-frame
+        {
+                height: 80px;
+                margin: 0 auto;
+                width: 936px;
+        }
+
+    }
+}
+
+
+

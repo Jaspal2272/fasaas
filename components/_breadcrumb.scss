@@ -1,0 +1,33 @@
+.breadcrumb a {
+    color: #4894d4;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 11px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.breadcrumb .inline {
+    display: inline-block !important;
+}
+
+.breadcrumb {
+    color: #a3a3a3;
+    display: inline-block;
+    font-size: 11px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    padding-bottom: 10px;
+    text-decoration-color: -moz-use-text-color;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+}
+
+.breadcrumb .breadcrumb_separator {
+    font-size: 11px;
+    margin-left: 3px;
+    margin-right: 3px;
+}

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import 'lib/variables';
+@import 'lib/mixin';
+@import 'lib/reset';
+
+/* Header footer */
+@import 'components/product-outer';
+@import 'components/strip-banner';
+
+/*Listing_page_Starts*/
+.view-uc-products {
+
+    #view-bottom-pager
+    {
+        .noofresultleft {
+            display: none;
+        }
+    }
+
+    #view-top-pager {
+        .pagerright {
+            .view-filters {
+                display: inline-block;
+                float: right;
+
+                .gifts-modal-box { display: none; }
+
+                form.ctools-auto-submit-full-form {
+                    label {
+                        display: inline-block;
+                        font-size: 14px;
+                        font-weight: normal;
+                    }
+
+                    .views-widget-sort-by {padding: 0;}
+                }
+            }
+
+        }
+    }
+}
+
+
+
+
+#city-quick-link {
+    ul.tabs-sections {
+        border-bottom: 1px solid #ccc;
+        width: 65%;
+        li {
+            background: #efefef none repeat scroll 0 0;
+            border: 1px solid #ccc;
+            display: inline-block;
+            line-height: 100%;
+            margin-bottom: -1px;
+            margin-right: -1px;
+            padding: 0;
+            a {
+                background: #efefef none repeat scroll 0 0;
+                font-size: 14px;
+                line-height: 40px;
+                color: #464646;
+                padding: 10px;
+            }
+            a.active {
+                background: white none repeat scroll 0 0;
+                color: #464646;
+                padding-bottom: 11px;
+            }
+        }
+    }
+    span.js-heading {
+        border-bottom: 1px solid #ccc;
+        clear: both;
+        display: block;
+        line-height: 38px;
+        margin-bottom: 15px;
+    }
+    .view-quick-link {
+        ul {
+            li {
+                display: inline-block;
+                font-size: 13px;
+                margin: 10px 15px;
+                width: auto;
+            }
+        }
+    }
+}
+
+/*Listing_page_Ends*/
+
+
+
+
+

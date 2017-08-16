@@ -1,0 +1,409 @@
+#featured .block-menu ul, #featured .block-menu ul li, #featured .block-views {
+  margin: 0;
+  padding: 0; }
+
+#featured .block-menu .birthday:before, #featured .block-menu .year:before, #featured .block-menu .christmas:before, #featured .block-menu .rakhi:before, #featured .block-menu .friends:before, #featured .block-menu .affection:before, #featured .block-menu .anniversary:before, #featured .block-menu .her:before, #featured .block-menu .him:before, #featured .block-menu .congratulations:before, #featured .block-menu .valentines:before, #featured .block-menu .rose:before {
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: 6px;
+  background-image: url("../images/sprite.svg"); }
+
+h2, h3, h4, h6, p, li, ul, ol {
+  margin: 0;
+  padding: 0; }
+
+* {
+  box-sizing: content-box; }
+
+html {
+  height: 100%; }
+
+body {
+  color: #333;
+  background-color: #f1f0ed;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+figure {
+  margin: 0; }
+
+h1 {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: capitalize; }
+
+h2 {
+  color: #575757;
+  font-size: 15.85px;
+  font-weight: normal; }
+
+p {
+  padding-bottom: 10px;
+  line-height: 1.5em; }
+
+/*img {
+  @include box(100%, auto, block);
+}*/
+a {
+  color: #4894d4;
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+ul, ol {
+  list-style: none; }
+
+article p {
+  line-height: 1.6;
+  font-size: 16px; }
+article h2 {
+  padding-top: 30px;
+  font-weight: 700; }
+article ul {
+  padding-left: 25px;
+  padding-bottom: 10px; }
+  article ul li {
+    list-style-type: decimal;
+    padding-bottom: 10px; }
+
+.fw100 {
+  font-weight: 100; }
+
+.fw400 {
+  font-weight: 400; }
+
+.fw600 {
+  font-weight: 600; }
+
+.fw700 {
+  font-weight: 700; }
+
+.fs-11 {
+  font-size: 11px;
+  line-height: 1.2; }
+
+.fs-12 {
+  font-size: 12px;
+  line-height: 1.5; }
+
+.fs-13 {
+  font-size: 13px !important;
+  line-height: 1.5 !important; }
+
+.fs-14, .view-testimonials .view-content .testimonial-full-content .testimonial-content {
+  font-size: 14px;
+  line-height: 1.5; }
+
+.fs-15 {
+  font-size: 15px;
+  line-height: 1.5; }
+
+.fs-18 {
+  font-size: 18px;
+  line-height: 1.6; }
+
+.fs-20 {
+  font-size: 20px;
+  line-height: 1.2; }
+
+.fs-22 {
+  font-size: 22px;
+  line-height: 1.3; }
+
+.fnormal {
+  font-style: normal; }
+
+.fitalic {
+  font-style: italic; }
+
+.fline {
+  text-decoration: underline; }
+
+.text-right {
+  text-align: right; }
+
+.text-white {
+  color: #fff !important; }
+
+.c9 {
+  color: #999; }
+
+.c6 {
+  color: #666; }
+
+#featured {
+  /* end of block-menu */ }
+  #featured .block-menu {
+    width: 21%;
+    padding-right: 10px;
+    float: left;
+    /* ul.menu ends here */
+    /* end of Birthday icon */
+    /* end of year icon */
+    /* end of christmas icon */
+    /* end of Rakhi icon */
+    /* end of friends icon */
+    /* end of affection icon */
+    /* end of anniversary icon */
+    /* end of her icon */
+    /* end of her icon */
+    /* end of congratulations icon */
+    /* end of valentines icon */
+    /* end of rose icon */ }
+    #featured .block-menu ul {
+      /* li ends here */ }
+      #featured .block-menu ul li {
+        background-color: #fff;
+        border-bottom: 1px solid #e0d8d8;
+        font-size: 14px;
+        line-height: 31px;
+        width: 100%;
+        list-style: outside none none;
+        position: relative;
+        /* span ends here */ }
+        #featured .block-menu ul li a {
+          color: #737373;
+          padding-left: 40px; }
+          #featured .block-menu ul li a:hover {
+            color: #f05972; }
+        #featured .block-menu ul li span {
+          background-color: #f2f2f2;
+          color: #464646;
+          display: inline-block;
+          padding-left: 15px;
+          width: 100%; }
+          #featured .block-menu ul li span .nolink {
+            background-color: #f2f2f2;
+            color: #464646;
+            display: inline-block;
+            padding-left: 15px;
+            width: 100%; }
+    #featured .block-menu .birthday:before {
+      background-position: -118px 0;
+      width: 16px;
+      height: 17px;
+      display: inline-block; }
+    #featured .block-menu .birthday:hover::before {
+      background-position: -118px -21px; }
+    #featured .block-menu .year:before {
+      background-position: -138px 0;
+      width: 17px;
+      height: 17px;
+      display: inline-block;
+      background-image: url("../images/sprite.svg"); }
+    #featured .block-menu .year:hover::before {
+      background-position: -138px -21px; }
+    #featured .block-menu .christmas:before {
+      background-position: -157px 0;
+      width: 16px;
+      height: 17px;
+      display: inline-block; }
+    #featured .block-menu .christmas:hover::before {
+      background-position: -157px -21px; }
+    #featured .block-menu .rakhi:before {
+      background-position: -178px 0;
+      width: 16px;
+      height: 17px;
+      display: inline-block; }
+    #featured .block-menu .rakhi:hover::before {
+      background-position: -178px -21px; }
+    #featured .block-menu .friends:before {
+      background-position: -198px 0;
+      width: 16px;
+      height: 17px;
+      display: inline-block; }
+    #featured .block-menu .friends:hover::before {
+      background-position: -198px -21px; }
+    #featured .block-menu .affection:before {
+      background-position: -217px 0;
+      width: 17px;
+      height: 17px;
+      display: inline-block; }
+    #featured .block-menu .affection:hover::before {
+      background-position: -217px -21px; }
+    #featured .block-menu .anniversary:before {
+      background-position: -236px 0;
+      width: 16px;
+      height: 17px;
+      display: inline-block; }
+    #featured .block-menu .anniversary:hover::before {
+      background-position: -236px -19px; }
+    #featured .block-menu .her:before {
+      background-position: -257px 1px;
+      width: 18px;
+      height: 16px;
+      display: inline-block; }
+    #featured .block-menu .her:hover::before {
+      background-position: -257px -18px; }
+    #featured .block-menu .him:before {
+      background-position: -281px 0;
+      width: 16px;
+      height: 17px;
+      display: inline-block; }
+    #featured .block-menu .him:hover::before {
+      background-position: -281px -21px; }
+    #featured .block-menu .congratulations:before {
+      background-position: 0 -38px;
+      width: 16px;
+      height: 18px;
+      display: inline-block; }
+    #featured .block-menu .congratulations:hover::before {
+      background-position: -19px -38px; }
+    #featured .block-menu .valentines:before {
+      background-position: -217px 0;
+      width: 17px;
+      height: 17px;
+      display: inline-block; }
+    #featured .block-menu .valentines:hover::before {
+      background-position: -217px -21px; }
+    #featured .block-menu .rose:before {
+      background-position: -81px -61px;
+      width: 12px;
+      height: 20px;
+      display: inline-block; }
+    #featured .block-menu .rose:hover::before {
+      background-position: -81px -87px; }
+  #featured .block-views {
+    float: right; }
+  #featured .views-slideshow-controls-text-pause a {
+    display: none; }
+  #featured .block-block {
+    float: left;
+    margin: 20px 0 0;
+    padding: 0; }
+
+/* end of featured */
+.views-slideshow-controls-bottom {
+  background-color: #eaeaea;
+  display: block;
+  width: auto;
+  margin-top: -5px;
+  border-bottom: 1px solid #c1c1c1;
+  padding: 10px 0 0px 0; }
+  .views-slideshow-controls-bottom .views-field-title {
+    width: 100%; }
+    .views-slideshow-controls-bottom .views-field-title .views-content-title {
+      display: inline-block;
+      cursor: pointer;
+      float: left;
+      font-size: 13px;
+      margin-left: 30px;
+      margin-right: 30px;
+      padding-left: 10px;
+      padding-right: 10px;
+      width: auto; }
+      .views-slideshow-controls-bottom .views-field-title .views-content-title:hover {
+        border-bottom: 3px solid #f05972;
+        color: #f05972;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px; }
+
+.view-slideshow-home .views-content-title {
+  color: #464646; }
+.view-slideshow-home .active .views-content-title {
+  color: #f05972;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: 3px solid #f05972; }
+.view-slideshow-home .views-slideshow-controls-text-previous a {
+  background-position: 0 -60px;
+  width: 34px;
+  height: 63px;
+  display: block;
+  background-image: url("../images/sprite.svg");
+  background-color: rgba(255, 255, 255, 0.5);
+  text-indent: -99999px;
+  margin-left: 0;
+  margin-top: -175px;
+  position: absolute;
+  z-index: 999; }
+.view-slideshow-home .views-slideshow-controls-text-next a {
+  background-position: -41px -60px;
+  width: 34px;
+  height: 63px;
+  display: inline-block;
+  background-image: url("../images/sprite.svg");
+  background-color: rgba(255, 255, 255, 0.5);
+  text-indent: -99999px;
+  float: right;
+  margin-bottom: 0;
+  margin-left: -30px;
+  margin-right: 0;
+  margin-top: -170px;
+  position: relative;
+  z-index: 99; }
+
+.region.region-featured {
+  padding-top: 5px; }
+
+#strip_banner {
+  text-align: center; }
+  #strip_banner a img {
+    width: 100%; }
+
+.view-testimonials .view-content .testimonial-full-content .left-quotes {
+  background: transparent url("https://d24pyncn3hxs0c.cloudfront.net/sites/all/themes/facd7/images/new_images/testi-icon-left.png") no-repeat scroll left center;
+  float: left;
+  height: 14px;
+  padding-right: 10px;
+  width: 18px; }
+.view-testimonials .view-content .testimonial-full-content .right-quotes {
+  background: transparent url("https://d24pyncn3hxs0c.cloudfront.net/sites/all/themes/facd7/images/new_images/testi-icon-right.png") no-repeat scroll right center;
+  float: right;
+  height: 14px;
+  width: 18px; }
+.view-testimonials .view-content .testimonial-full-content .testimonial-content {
+  color: #737373;
+  float: left;
+  font-style: italic;
+  margin: 5px 0 0;
+  width: 879px; }
+.view-testimonials .view-content .testimonial-full-content .testimonials-name {
+  clear: both;
+  color: #ad0035;
+  float: left;
+  font-size: 14px;
+  font-style: italic;
+  margin: 10px 0 0 30px; }
+.view-testimonials .view-content .views-slideshow-controls-top {
+  position: relative; }
+  .view-testimonials .view-content .views-slideshow-controls-top .views_slideshow_controls_text {
+    position: absolute;
+    width: 1000px; }
+  .view-testimonials .view-content .views-slideshow-controls-top .views-slideshow-controls-text-previous {
+    background-position: 0 0;
+    float: left;
+    left: -10px;
+    position: absolute;
+    top: 0px; }
+  .view-testimonials .view-content .views-slideshow-controls-top .views-slideshow-controls-text-next, .view-testimonials .view-content .views-slideshow-controls-top .views-slideshow-controls-text-previous {
+    background-color: #ccc;
+    background-image: url("https://d24pyncn3hxs0c.cloudfront.net/sites/all/themes/facd7/images/new_images/arrows.png");
+    display: block;
+    height: 63px;
+    width: 32px;
+    font-size: 0; }
+  .view-testimonials .view-content .views-slideshow-controls-top .views-slideshow-controls-text-next {
+    background-position: 115px 0;
+    float: right;
+    position: absolute;
+    right: -10px;
+    top: 0px; }
+  .view-testimonials .view-content .views-slideshow-controls-top .views-slideshow-controls-text-pause {
+    display: none; }
+.view-testimonials .view-content .views-slideshow-cycle-main-frame {
+  height: 80px;
+  margin: 0 auto;
+  width: 936px; }
+
+/*# sourceMappingURL=home.css.map */

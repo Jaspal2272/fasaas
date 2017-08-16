@@ -1,0 +1,283 @@
+/*Dashboard Css Js*/
+.page-admin-reviews-list .view-all-review-list select {
+    -moz-appearance: none;
+    background: rgba(0, 0, 0, 0) url("/sites/all/themes/facd7/images/rating-review/sprite.png") repeat scroll 62px 13px / 210px auto;
+    border: 1px solid #cbcbcb;
+    border-radius: 3px;
+    color: #999 !important;
+    font-size: 13px !important;
+    height: 34px;
+    outline: 0 none;
+    text-align: left;
+    transition: all 0.3s ease 0s;
+}
+
+div.fivestar-widget-static .star span.on {
+    background-position: 0 -28px !important;
+    background-size: 84% auto !important;
+    padding: 8px !important;
+}
+
+.page-admin-reviews-list .table-bordered p {
+    margin: 0;
+    padding: 0;
+}
+
+.page-admin-reviews-list .flag-link-normal {
+    color: #fff !important;
+}
+
+.page-admin-reviews-list .search-bg {
+    background: #f8f8f8 none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    margin: 0 0 -1px;
+    padding: 15px 0 5px 10px;
+}
+.page-admin-reviews-list .bef-datepicker {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    line-height: 31px;
+}
+.page-admin-reviews-list .views-widget-filter-created {
+    display: inline-block;
+    float: none;
+    width: 75%;
+}
+.page-admin-reviews-list .form-type-textfield {
+    display: inline-block;
+}
+.page-admin-reviews-list .views-exposed-widget {
+    display: inline-block;
+    width: auto;
+}
+.page-admin-reviews-list .views-widget {
+    display: inline-block;
+}
+
+
+.page-admin-reviews-list .fivestar-static-item .form-type-item {
+    margin: 0;
+}
+
+.page-admin-reviews-list .fivestar-average-stars div.fivestar-widget-static .star {
+    background: rgba(0, 0, 0, 0) url("../widgets/default/star.png") no-repeat scroll 0 2px / 12px auto !important;
+    float: left;
+    height: 14px!important;
+    margin-bottom: 5px!important;
+    overflow: hidden;
+    width: 14px;
+    padding: 0!important;
+    text-indent: -999em;
+}
+.page-admin-reviews-list #view-bottom-pager {
+    display: none;
+}
+.page-admin-reviews-list .view-all-review-list select option {
+    padding: 6px;
+}
+.page-admin-reviews-list .view-all-review-list .text-right {
+    text-align: right;
+}
+.page-admin-reviews-list .view-all-review-list .inline-block {
+    display: inline-block;
+}
+.page-admin-reviews-list .view-all-review-list .spacer {
+    color: #999;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 0 10px;
+}
+.page-admin-reviews-list .view-all-review-list .text-center {
+    text-align: center;
+}
+.page-admin-reviews-list .view-all-review-list .margin-bottom-20 {
+    margin-bottom: 20px;
+}
+.page-admin-reviews-list .view-all-review-list .padding-left-23 {
+    padding-left: 23px;
+}
+.page-admin-reviews-list .view-all-review-list .w100 {
+    width: 100%;
+}
+.page-admin-reviews-list .view-all-review-list .form-inline select {
+    display: inline-block;
+    vertical-align: middle;
+}
+.page-admin-reviews-list .view-all-review-list .form-inline select {
+    display: inline-block;
+    padding-right: 30px;
+    vertical-align: middle;
+    width: auto;
+}
+.page-admin-reviews-list .view-all-review-list .marginRight-15 {
+    margin-right: 15px;
+}
+.page-admin-reviews-list .view-all-review-list .rel {
+    position: relative;
+}
+.page-admin-reviews-list .view-all-review-list .margin-top-10 {
+    margin-top: 10px;
+}
+.page-admin-reviews-list .view-all-review-list .margin-top-20 {
+    margin-top: 20px;
+}
+.page-admin-reviews-list .view-all-review-list .margin-top-0 {
+    margin-top: 0;
+}
+.page-admin-reviews-list .view-all-review-list .modal-header .close {
+    background-color: transparent;
+    border: 0 none;
+    font-size: 24px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.page-admin-reviews-list .view-all-review-list .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    vertical-align: middle;
+}
+.page-admin-reviews-list .view-all-review-list .btn-default {
+    background-color: #cbcbcb;
+    border-color: #cbcbcb;
+    color: #333333;
+}
+.page-admin-reviews-list .view-all-review-list .text-left {
+    text-align: left !important;
+}
+.page-admin-reviews-list .view-all-review-list .margin-right-15 {
+    margin-right: 15px;
+}
+.page-admin-reviews-list .view-all-review-list .margin-top-5 {
+    margin-top: 5px;
+}
+.page-admin-reviews-list .view-all-review-list .margin-bottom-0 {
+    margin-bottom: 0 !important;
+}
+.page-admin-reviews-list .view-all-review-list .padding-bottom-15 {
+    padding-top: 15px;
+}
+.page-admin-reviews-list .view-all-review-list .margin-top-35 {
+    margin-top: 35px;
+}
+.page-admin-reviews-list .view-all-review-list .padding-bottom-0 {
+    padding-bottom: 0 !important;
+}
+.page-admin-reviews-list .view-all-review-list .border-top-0 {
+    border-top: 0 none;
+}
+
+.page-admin-reviews-list .view-all-review-list .form-inline .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+
+.views-submit-button {
+    padding: 0 !important;
+}
+.views-submit-button input#edit-submit-all-review-list {
+    background: #337ab7 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 3px;
+    color: #ffffff;
+    margin: 8px 15px;
+    padding: 8px 25px;
+}
+
+
+.page-admin-reviews-list .view-all-review-list label {
+    color: #464646;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 5px;
+    width: auto;
+}
+.page-admin-reviews-list .view-all-review-list .f12 {
+    font-size: 12px;
+}
+.page-admin-reviews-list .view-all-review-list .table-bordered {
+    border: 1px solid #dddddd;
+}
+.page-admin-reviews-list .view-all-review-list .table {
+    margin-bottom: 20px;
+    max-width: 100%;
+    width: 100%;
+}
+.page-admin-reviews-list .view-all-review-list table {
+    background-color: transparent;
+}
+.page-admin-reviews-list .view-all-review-list table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.page-admin-reviews-list .view-all-review-list .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    line-height: 1.42857;
+}
+
+.page-admin-reviews-list .view-all-review-list .table-bordered > thead > tr > th, .table-bordered > thead > tr > td {
+    border-bottom-width: 2px;
+}
+.page-admin-reviews-list .view-all-review-list .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    line-height: 1.42857;
+    padding: 8px;
+    border: 1px solid #cccccc;
+}
+
+.page-admin-reviews-list .view-all-review-list .table-bordered > thead > tr > th, .table-bordered > thead > tr > td {
+    border-bottom-width: 2px;
+}
+
+.page-admin-reviews-list .view-all-review-list .btn-sm, .btn-group-sm > .btn {
+    border-radius: 3px;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 5px 10px;
+}
+.page-admin-reviews-list .view-all-review-list .btn-success {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    color: #ffffff;
+}
+
+.page-admin-reviews-list .view-all-review-list .btn-success a, .btn-danger  a {color: #ffffff; text-decoration: none;}
+.page-admin-reviews-list .view-all-review-list .btn-sm, .btn-group-sm > .btn {
+    border-radius: 3px;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 5px 7px;
+}
+.page-admin-reviews-list .view-all-review-list .btn-danger {
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    color: #ffffff;
+}
+
+.page-admin-reviews-list .view-all-review-list td p.btn {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+.page-admin-reviews-list .view-all-review-list .btn-xs, .btn-group-xs > .btn {
+    border-radius: 3px;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 1px 5px;
+}
+
+.page-admin-reviews-list .view-all-review-list td a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+
+.page-admin-reviews-list .view-all-review-list .fivestar-static-item .description {
+    padding: 0 !important;
+}
+
+.page-admin-reviews-list .view-all-review-list .noofresultleft {
+    display: none;
+}
+/*Dashboard Css ends*/

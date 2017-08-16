@@ -1,0 +1,132 @@
+.view-header {
+  .main-title {
+    a {
+      color: $txt-blue;
+      float: right;
+      font-size: 13px;
+      text-decoration: none;
+      text-transform: capitalize;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.main-title {
+  padding: 15px 5px 0px 15px;
+
+  h2 {
+    border-bottom: 1px solid $bdr-gray-e0;
+    color: $txt-dark-pink;
+    font-size: 17.85px;
+    text-transform: capitalize;
+    font-weight: normal;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    width: 100%;
+  }
+}
+
+#view-top-pager {
+    position: relative;
+    clear: both;
+}
+
+.block-views .view .pagerinsite {
+    display: none;
+}
+
+.noofresultleft {
+  clear: both;
+  color: $txt-grey-46;
+  display: block;
+  float: left;
+  font-size: 12px;
+  padding-left: 0;
+  padding-top: 0;
+  position: absolute;
+  text-align: center;
+  left: 4px;
+  bottom: 10px;
+}
+
+
+/* JS Scroller left and right  */
+.jcarousel-skin-default {
+  text-align: center;
+
+  .jcarousel-container-horizontal {
+    @include box (1000px, 290px, block);
+    @extend %margin-padding-0;
+  }
+
+  .jcarousel-clip-horizontal {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 990px;
+  }
+
+  .jcarousel-next-horizontal {
+    @include icon-inblock(34px, 63px, -41px -60px);
+    position: absolute;
+    right: -10px;
+    top: 100px;
+
+    &:hover {
+      background-color: $bg-light-pink;
+    }
+  }
+
+
+  .jcarousel-prev-horizontal {
+    @include icon-block(34px, 63px, 0 -60px);
+    left: -10px;
+    position: absolute;
+    top: 100px;
+
+    &:hover {
+      background-position: -83px 0;
+    }
+  }
+
+   .jcarousel-next {
+    @include icon-inblock(34px, 63px, -41px -60px);
+  }
+
+   .jcarousel-prev {
+    @include icon-block(34px, 63px, 0 -60px);
+  }
+
+  .jcarousel-next, 
+  .jcarousel-prev,
+  .jcarousel-prev-horizontal,
+  .jcarousel-next-horizontal {
+    background-image: url($image-path);
+    background-color: $bg-grey-ea;
+  }
+
+  .jcarousel-next-disabled, 
+  .jcarousel-prev-disabled {
+    display: none;
+  }
+
+  .jcarousel-item {
+    @include box (230px, 295px, block);
+    background-color: $bg-white;
+    border: none;
+    list-style-type: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-left: 15px;
+  }
+}
+/* JS Scroller left and right  */
+
+
+
+/*Top-Pager-Disable*/
+#view-top-pager {
+  .item-list { display: none; }
+}
