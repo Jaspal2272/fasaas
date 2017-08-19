@@ -59,7 +59,7 @@
     float: left;
     font-size: 13px;
     height: 60px;
-    padding-top: 15px;
+    padding-top: 10px;
     text-align: right;
     width: 90%;
 
@@ -114,9 +114,11 @@
           margin-right: 10px;
 
             &:before {
-              @include icon-block(16px, 15px, 0 0);
+              @include icon-block(28px, 21px, -12px -53px);
               @extend %icon-ab;
               background-image: url($image-path);
+              margin-left: -5px;
+              margin-top: -4px;
             }
         }
 
@@ -124,9 +126,11 @@
           @extend %services-a;
 
           &:before {
-            @include icon-block(16px, 16px, -18px 0);
+            @include icon-block(30px, 37px, -45px -53px);
             @extend %icon-ab;
             background-image: url($image-path);
+            margin-left: -8px;
+            margin-top: -5px;
           }
         }
 
@@ -168,9 +172,9 @@
     }/* input.form-text ends here */
 
     input.form-submit {
-      @include icon-inblock(25px, 26px, -37px 0);
+      @include icon-inblock(12px, 28px, -4px -1px);
       @include border-radius (0 2px 2px 0);
-      background-color: $bg-green-light;
+      background-color: $bg-grey-cc;
       background-image: url($image-path);
       border: 0 none;
       cursor: pointer;
@@ -198,11 +202,11 @@
     }
 
     .cart-icon {
-      @include icon-block(39px, 39px, -71px 0);
+      @include icon-block(39px, 37px, -38px -1px);
       background-image: url($image-path);
       color: #fff;
       font-size: 14px;
-      padding: 3px 6px 0px 22px;
+      padding: 3px 0px 0px 9px;
       text-align: center;
     }
 

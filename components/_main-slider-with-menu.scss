@@ -250,7 +250,7 @@
     }
 
     .views-slideshow-controls-text-previous a {
-        @include icon-block(34px, 63px, 0 -60px);
+        @include icon-block(34px, 63px, -5px -87px);
         background-image: url($image-path);
         background-color: rgba(255, 255, 255, .5);
         text-indent: -99999px;
@@ -262,7 +262,7 @@
     }
 
     .views-slideshow-controls-text-next a {
-        @include icon-inblock(34px, 63px, -41px -60px);
+        @include icon-inblock(34px, 63px, -47px -87px);
         background-image: url($image-path);
         background-color: rgba(255, 255, 255, .5);
         text-indent: -99999px;

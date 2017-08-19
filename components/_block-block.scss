@@ -1,4 +1,4 @@
-.block-block {
+/*.block-block {*/
 
   .tabs-sections {
     @include box (98%, auto, inline-block);
@@ -8,7 +8,7 @@
 
     li {
       display: inline-block;
-      width: 15%;
+      width: auto;
       font-size: 14px;
       margin-left: 0;
       margin-right: -5px;
@@ -19,6 +19,8 @@
       line-height: 35px;
       text-align: center;
       text-decoration: none;
+      padding-right: 20px;
+      padding-left: 20px;
 
       &:hover {
         background-color: $bg-grey-cc;
@@ -29,19 +31,6 @@
         background-color: white;
         margin-right: -4px;
         padding-bottom: 9px;
-      li {
-        display: inline-block;
-        width: 15%;
-        font-size: 14px;
-        margin-left: 0px;
-        margin-right: -5px;
-        background-color: $bg-white;
-        color: $txt-grey-73;
-        border: 1px solid $border-grey-d5;
-        border-bottom: none;
-        text-align: center;
-        text-decoration: none;
-      }
     }
   }
 
@@ -60,5 +49,3 @@
     }
 
   }
-}
-

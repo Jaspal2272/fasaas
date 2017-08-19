@@ -1,7 +1,7 @@
 // fonts
 $font-size: 16px;
 $font-weight: 400;
-$font-family: 'Open Sans', sans-serif;
+$font-family: 'arial', arial;
 $line-height: 1.3;
 $mian-bg: #f1f0ed;
 
@@ -64,8 +64,8 @@ $box-shadow-5: 0px 0px 15px rgba(0, 0, 0, 0.5);
 
 
 // images
-$path:        '../images/';
-$image-path:         $path + 'sprite.svg';
+$path:        '../../../../../sites/all/themes/facd7/images/new_images/';
+$image-path:         $path + 'sprite.png';
 
 // border radius
 $global-radius: 3px;
